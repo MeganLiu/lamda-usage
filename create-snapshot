@@ -1,0 +1,6 @@
+reference
+WSTemplateFormatVersion: '2010-09-09'
+Description: 'Take daily snapshots of EBS volumes that belong to EC2 instances with the Backup:True tag.'
+Permissions to schedule Lambda events in CloudWatch: https://docs.aws.amazon.com/lambda/latest/dg/console-specific-permissions.html#console-permissions-cloudwatch-events
+
+Permissions for Lambda function to take and delete snapshots (one example): https://github.com/karelbemelmans/cloudformation-templates/blob/master/daily-EBS-backups-with-retention/daily-snapshots.yaml#L26-L46
